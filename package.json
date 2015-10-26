@@ -1,7 +1,7 @@
 {
   "name": "gettext-tools",
   "description": "Tools for extracting/compiling PO strings.",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "homepage": "http://angular-gettext.rocketeer.be/",
   "author": {
     "name": "Ruben Vermeersch",
