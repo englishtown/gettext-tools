@@ -1,6 +1,6 @@
 {
-  "name": "angular-gettext-tools",
-  "description": "Tools for extracting/compiling angular-gettext strings.",
+  "name": "gettext-tools",
+  "description": "Tools for extracting/compiling PO strings.",
   "version": "2.1.6",
   "homepage": "http://angular-gettext.rocketeer.be/",
   "author": {
@@ -8,12 +8,18 @@
     "email": "ruben@rocketeer.be",
     "url": "http://rocketeer.be"
   },
+  "contributors": [
+    {
+      "name": "Garry Yao",
+      "email": "yaojun85@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/rubenv/angular-gettext-tools.git"
+    "url": "git://github.com/engishtown/gettext-tools.git"
   },
   "bugs": {
-    "url": "https://github.com/rubenv/angular-gettext-tools/issues"
+    "url": "https://github.com/engishtown/gettext-tools/issues"
   },
   "license": "MIT",
   "main": "index.js",
@@ -33,8 +39,10 @@
     "grunt-mocha-cli": "^1.13.1"
   },
   "keywords": [
-    "angular",
-    "gettext"
+    "javascript",
+    "gettext",
+    "l10n",
+    "i18n"
   ],
   "dependencies": {
     "binary-search": "^1.2.0",
